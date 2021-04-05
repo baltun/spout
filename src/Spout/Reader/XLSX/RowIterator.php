@@ -75,7 +75,7 @@ class RowIterator implements IteratorInterface
     protected $shouldPreserveEmptyRows;
 
     /** @var int Last row index processed (one-based) */
-    protected $lastRowIndexProcessed = 0;
+    public $lastRowIndexProcessed = 0;
 
     /** @var int Row index to be processed next (one-based) */
     protected $nextRowIndexToBeProcessed = 0;
